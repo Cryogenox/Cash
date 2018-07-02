@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="cash.js">
+</head>
+<body>
+    <!-- calculate how much you can spend per day this month -->
+    <h1>Calculate how much you can spend per day this month</h1>
+    <p>Total: </p>
+    <input type="number" id="total" value= 0>
+    <br>
+    <p>Mandatory Expenses: </p>
+    <input type="number" id="minus" value = 0>
+    <br>
+    <p>Month: </p>
+    <select id="month">
+            <option value= 31>January</option>
+            <option value= 28 id="feb">February</option>
+            <option value= 31>March</option>
+            <option value= 30>April</option>
+            <option value= 31>May</option>
+            <option value= 30>June</option>
+            <option value= 31>July</option>
+            <option value= 31>August</option>
+            <option value= 30>September</option>
+            <option value= 31>October</option>
+            <option value= 30>November</option>
+            <option value= 31>December</option>
+          </select>
+    <input type="submit" onclick="subbed()">
+    <div id="output"></div>
+    </body>
+    </html>
